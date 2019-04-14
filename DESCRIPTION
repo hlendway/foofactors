@@ -7,6 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "hlendway@gmail.com")
 Description: What the package does (one paragraph).
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+use_roxURL: https://github.com/hlendway/foofactors
+BugReports: https://github.com/hlendway/foofactors/issues
+RoxygenNote: 6.1.1
+Imports: 
+    forcats
+Suggests: 
+    testthat

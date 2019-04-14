@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @examples
+#' fbind(iris$Species, Puromycin$state)
 #'
 fbind <- function(a, b) {
   forcats::fct_c(a,b)
